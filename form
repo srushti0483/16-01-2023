@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using CSS</title>
+</head>
+<body bgcolor="lightblue">
+    <form action="Details.php" method="post">
+        <center>
+            <div class="head"><span id="title" style="font-family:Arial;font-size:30px;">SIGN UP</span><br><br>
+        </center>
+    </form>
+    </div>
+    <div class="content" style="font-size:25px;">
+        <fieldset>
+            <b>
+                <legend>Student Details</legend>
+            </b><br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="mname">middle name:</label>
+            <input type="text" id="mname" name="mname"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+        </fieldset>
+    </div>
+    <div class="content" style="font-size:25px;">
+        <fieldset>
+        <select>
+            <b>
+                <legend>coures Details</legend>
+            </b><br>
+            <option value="coures">coures:</option>
+            <option value="BCA" name="BCA">BCA</option>
+            <option value="BBA" name="BBA">BBA</option>
+            <option value="MCA" name="MCA">MCA</option>
+            <option value="MBA" name="MBA">MBA</option>
+            <option value="B.COM" name="B.COM">B.COM</option>
+            <option value="M.COM" name="M.COM">M.COM</option>
+        </select>
+        </fieldset>
+    </div>
+    <div class="content" style="font-size:25px;">
+        <fieldset>
+            <b>
+                <legend>Gender Details</legend>
+            </b><br>
+            <label>male</label>
+            <input type="radio" id="male" name="male"><br><br>
+            <label>female</label>
+            <input type="radio" id="female" name="female"><br><br>
+        </fieldset>
+    </div>
+
+
+    <div style="font-size:25px;">
+        <fieldset>
+            <b>
+                <legend>Address Details</legend>
+            </b><br>
+            <textarea for="address">Address</textarea>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="city">City</label>
+            <input type="text" id="lname" name="lname"><br><br>
+        </fieldset>
+    </div>
+    <div style="font-size: 25px;">
+        <fieldset>
+            <b>
+                <legend>Phone Number Details</legend>
+            </b><br>
+            <input type="text" name="country code"  value="+91" size="2"/>   
+            <input type="text" name="phone" size="10"/> <br> <br>  
+        </fieldset>
+    </div>
+    <div style="font-size:25px;">
+        <fieldset>
+            <b>
+                <legend>Email Details</legend>
+            </b><br>
+            <label>Email</label>
+            <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+    </div>
+    <div style="font-size: 25px;">
+        <fieldset>
+             <b>
+                <legend>Password Details</legend>
+             </b><br>
+             <label>Password</label>
+             <input type="password" id="password" name="password"><br><br>
+             <label>Re-type Password</label>
+             <input type="re-type password" id="re-type password " name="re-type password"><br><br>
+        </fieldset>
+    </div>
+    <div style="font-size:25px;">
+        <fieldset>
+            <input type="submit" value="Submit" style="font-size:20px;">
+        </fieldset>
+    </div>
+</form>
+</body>
+</html>

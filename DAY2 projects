@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>projects</title>
+    <style>table{font-family:arial;
+        border-collapse: collapse;width:100%;
+    }
+    td,th{
+        border:1px solid black;
+        text-align: left;
+        padding:8px;
+    }
+    tr:nth-child(even){
+        background-color:pink;
+    }
+    </style>
+</head>
+<body style="background-color:rgb(32, 112, 112)">
+      <h1>HTML table</h1>
+        <h2>BCA-Q</h2>
+        <p>hii..i am a student of sliver oak university persuing BCA-in division Q.</p>
+        <h1>the capion element</h1>
+        <table>
+            <caption>HTML table</caption>
+            <tr>
+                <th>company</th>
+                <th>contact</th>
+                <th>country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial mocetezuma</td>
+                <td>Francisco chang</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>roland Mendel</td>
+                <td>Austria</td>
+            </tr>
+            <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+            </tr>
+            </table>
+            <hr><hr>
+            <ul>
+                <li>apple</li>
+                <li>banana</li>
+                <li>gavava</li>
+            </ul>
+            <hr><hr>
+            <ol>
+                <li>apple</li>
+                <li>banana</li>
+                <li>gavava</li>
+            </ol>
+            <hr><hr>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+              </dl>
+              <hr><hr>
+              <ul>
+                <li>Coffee</li>
+                <li>Tea
+                  <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                  </ul>
+                </li>
+                <li>Milk</li>
+              </ul>
+              <hr><hr>
+              <table>
+                <caption> Rowspan favorite and least favorite color.</caption>
+                
+                <tr>
+                    <th>-</th>
+                    <th>-</th>
+                    <th>Bod</th>
+                    <th>Alice</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">favorite</th>
+                    <th>color</th>
+                    <td>blue</td>
+                    <td>purple</td>
+                </tr>
+                <tr>
+                    <th>flovor</th>
+                    <td>banana</td>
+                    <td>chocalate</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">least favorite</th>
+                    <th>color</th>
+                    <td>yellow</td>
+                    <td>pink</td>
+                </tr>
+                <tr>
+                    <th>flavor</th>
+                    <td>mint</td>
+                    <td>walnut</td>
+                </tr>
+              </table>
+              <hr><hr>
+              <table>
+                <caption>Colspan life expectancy by current age</caption>
+                <tr>
+                    <th colspan="2">65</th>
+                    <th colspan="2">45</th>
+                    <th colspan="2">20</th>
+                </tr>
+                <tr>
+                    <th>men</th>
+                    <th>women</th>
+                    <th>men</th>
+                    <th>women</th>
+                    <th>men</th>
+                    <th>women</th>
+                </tr>
+                <tr>
+                    <td>82</td>
+                    <td>65</td>
+                    <td>55</td>
+                    <td>75</td>
+                    <td>49</td>
+                    <td>78</td>
+                </tr>
+              </table>
+              <hr><hr>
+              <form>  
+                <fieldset>
+                <label> Firstname </label>         
+                <input type="text" name="firstname" size="15"/> <br> <br>  
+                <label> Middlename: </label>     
+                <input type="text" name="middlename" size="15"/> <br> <br>  
+                <label> Lastname: </label>         
+                <input type="text" name="lastname" size="15"/> <br> <br>  
+                </fieldset> 
+                <br>
+                <label> 
+                <fieldset> 
+                Course :  
+                </label>   
+                <select>  
+                <option value="Course">Course</option>  
+                <option value="BCA">BCA</option>  
+                <option value="BBA">BBA</option>  
+                <option value="B.Tech">B.Tech</option>  
+                <option value="MBA">MBA</option>  
+                <option value="MCA">MCA</option>  
+                <option value="M.Tech">M.Tech</option>  
+                </select>  
+                </fieldset>
+                <br>    
+                <label>
+                <fieldset>  
+                Gender :  
+                </label><br>  
+                <input type="radio" name="male"/> Male <br>  
+                <input type="radio" name="female"/> Female <br>  
+                <input type="radio" name="other"/> Other  
+                </fieldset>
+                <br>   
+                <label>
+                <fieldset>                  
+                 hobbies:
+                 </label><br>
+                 <input type="checkbox" name="dance" value="dance">
+                 <label for="dance"> dance</label><br>
+                 <input type="checkbox" name="singing" value="singing">
+                 <label for="singing">singing </label><br>
+                 <input type="checkbox" name="reading" value="reading">
+                 <label for="reading"> reading</label><br><br>
+                </fieldset> 
+                <br> 
+                <label> 
+                <fieldset>
+                Phone :  
+                </label>  
+                <input type="text" name="country code"  value="+91" size="2"/>   
+                <input type="text" name="phone" size="10"/> <br> <br> 
+                </fieldset> 
+                <br>
+                <fieldset>
+                Address :  
+                <br>  
+                <textarea cols="80" rows="5" value="address">  
+                </textarea>
+                </fieldset>  
+                <br>
+                <fieldset> 
+                Email:  
+                <input type="email" id="email" name="email"/> <br>  
+                </fieldset>  
+                <br>   
+                <fieldset>
+                Password:  
+                <input type="Password" id="pass" name="pass"> <br>   
+                <br>  
+                Re-type password:  
+                <input type="Password" id="repass" name="repass"> <br>
+                </fieldset>
+                <br>  
+                <input type="button" value="Submit"/>  
+                </form>  
+                <hr><hr>
+                <audio controls>
+                    <source src="C:\Users\DELL\Downloads/Maan Meri Jaan - King(audiosong.in).mp3" type="audio/mpeg">
+                </audio>
+        <iframe width="860" height="515" src="https://www.youtube.com/embed/vIZWLvcMS9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr><hr>
+        <img src="C:\Users\DELL\Desktop\workplace2.jpg" usemap="#srush" alt="workplace" >
+        <hr><hr>
+</body>
+</html>

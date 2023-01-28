@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>projects</title>
+</head>
+<body style="background-color:rgb(9, 126, 126)">
+    <h1>this is a h1 tag.</h1>
+    <h2>this is a h2 tag.</h2>
+    <h3>this is a h3 tag.</h3>
+    <h4>this is a h4 tag.</h4>
+    <h5>this is a h5 tag.</h5>
+    <h6>this is a h6 tag.</h6>
+    <hr><hr>
+    <i>this is a italic tag.</i><br><br>
+    <em>this is a emphasis tag.</em><br><br>
+    <cite>this is a citetion tag.</cite><br><br>
+    <dfn>this is a defination tag.</dfn>
+    <hr><hr>
+    <u>this is a underline tag.</u><br><br>
+    <ins>this is a Insertion tag.</ins>
+    <hr><hr>
+    <s>this is a  strike tag.</s><br><br>
+    <del>this is a delete tag.</del>
+    <hr><hr>
+    <p>this is a span tag.<span style="color: rgb(0, 187, 255); font-weight: bold;">sky blue</span></p>
+    <P>this is a div tag.<div class="hello"></div></P>
+    <hr><hr>
+    <p>this is a paragraph tag.</p>
+    <hr><hr>
+    <blockquote>The photograph is both
+        striking and yet subtle in the
+        way in which it deals with its
+        subject matter,
+        the photographer clearly has an
+        eye for depth but could benefit
+        from light the photographs in
+        a more sympathetic manner.
+        </blockquote>
+        <hr><hr>
+        <p>co<sub>2</sub></p>
+        <p>6<sup>2</sup>=36</p>
+        <hr><hr>
+        <p><abbr this is a>thg is</abbr>acronym</p>
+        <hr><hr>
+        <b><p>this is a bold tag.</p></b>
+        <p><strong>thia ia a storng tag.</strong></p>
+
+</body>
+</html>
